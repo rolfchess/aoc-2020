@@ -27,10 +27,8 @@ fun findTriplet(numbers: Set<Int>): Triple<Int, Int, Int> {
     sorted.forEach { x ->
         sorted.filter { (it != x) && (it + x) < 2020 }.forEach { y ->
             sorted.find { z ->
-                x + y + z == 2020
-            }.also { z ->
-                if (z != null && x != y && x != z && y != x) return Triple(x, y, z)
-            }
+                (z != x) && (z != y) && (x + y + z == 2020)
+            }?.also { z -> return Triple(x, y, z) }
         }
     }
     error("incorrect puzzle input")
