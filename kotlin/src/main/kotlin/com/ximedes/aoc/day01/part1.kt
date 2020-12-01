@@ -48,9 +48,9 @@ class Loops(numbers: Set<Int>) {
     val sorted = numbers.sorted().filter { it < 2020 }
     fun find():Triple<Int,Int,Int> {
         for (x in 0..sorted.size) {
-            for (y in x..sorted.size) {
-                for (z in y..sorted.size) {
-                    if (x != y && y != z && z != x && sorted[x] + sorted[y] + sorted[z] == 2020) return Triple(sorted[x], sorted[y], sorted[z])
+            for (y in (x + 1)..sorted.size) {
+                for (z in (y + 1)..sorted.size) {
+                    if (sorted[x] + sorted[y] + sorted[z] == 2020) return Triple(sorted[x], sorted[y], sorted[z])
                 }
             }
         }
