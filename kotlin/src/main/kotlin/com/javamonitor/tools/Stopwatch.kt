@@ -7,7 +7,7 @@ package com.javamonitor.tools
  *
  * @author Kees Jan Koster &lt;kjkoster@kjkoster.org&gt;
  */
-class Stopwatch(name: String, val logLevel: LogLevel = LogLevel.DEBUG) {
+class Stopwatch(name: String, aboutTo: String = "", val logLevel: LogLevel = LogLevel.DEBUG) {
     private val start: Long
     private var lastTime: Long
     private val message = StringBuilder()
@@ -20,7 +20,12 @@ class Stopwatch(name: String, val logLevel: LogLevel = LogLevel.DEBUG) {
     init {
         start = System.currentTimeMillis()
         lastTime = start
-        message.append("entering ").append(name).append(" took ")
+
+        if (aboutTo.isEmpty()) {
+            message.append("entering ").append(name).append(" took ")
+        } else {
+            message.append(name).append(":").append(aboutTo).append(" took ")
+        }
     }
 
     enum class LogLevel {

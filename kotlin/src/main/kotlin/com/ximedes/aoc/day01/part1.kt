@@ -4,7 +4,7 @@ import com.javamonitor.tools.Stopwatch
 import com.ximedes.aoc.util.getResourceAsText
 
 fun main() {
-    val sw = Stopwatch("Day 1")
+    val sw = Stopwatch("Day 1", "load input")
     val ints = mutableSetOf<Int>()
     getResourceAsText("/input-1.txt").forEachLine {
         ints.add(it.toInt())
