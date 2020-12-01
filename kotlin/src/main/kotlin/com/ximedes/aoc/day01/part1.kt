@@ -9,10 +9,14 @@ fun main() {
     }
 
     val (x, y) = find2020Pair(ints)
-    println("Puzzle 1 solution: ${x * y}")
+    println("Day 01 part 1 solution: ${x * y}")
 
     val (a, b, c) = findTriplet(ints)
-    println("Puzzle 2 solution: ${a * b * c}")
+    println("Day 02 part 2 solution: ${a * b * c}")
+
+
+    val (d, e, f) = Loops(ints).find()
+    println("Day 02 part 2 solution: ${d * e * f}")
 }
 
 fun find2020Pair(numbers: Set<Int>): Pair<Int, Int> {
@@ -32,4 +36,18 @@ fun findTriplet(numbers: Set<Int>): Triple<Int, Int, Int> {
         }
     }
     error("incorrect puzzle input")
+}
+
+class Loops(numbers: Set<Int>) {
+    val sorted = numbers.sorted().filter { it < 2020 }
+    fun find():Triple<Int,Int,Int> {
+        for (x in 0..sorted.size) {
+            for (y in x..sorted.size) {
+                for (z in y..sorted.size) {
+                    if (x != y && y != z && z != x && sorted[x] + sorted[y] + sorted[z] == 2020) return Triple(sorted[x], sorted[y], sorted[z])
+                }
+            }
+        }
+        error("incorrect puzzle input")
+    }
 }
