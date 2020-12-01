@@ -1,22 +1,28 @@
 package com.ximedes.aoc.day01
 
+import com.javamonitor.tools.Stopwatch
 import com.ximedes.aoc.util.getResourceAsText
 
 fun main() {
+    val sw = Stopwatch("Day 1")
     val ints = mutableSetOf<Int>()
     getResourceAsText("/input-1.txt").forEachLine {
         ints.add(it.toInt())
     }
 
+    sw.aboutTo("find pair")
     val (x, y) = find2020Pair(ints)
     println("Day 01 part 1 solution: ${x * y}")
 
+    sw.aboutTo("find triplet (foreach version)")
     val (a, b, c) = findTriplet(ints)
     println("Day 02 part 2 solution: ${a * b * c}")
 
-
+    sw.aboutTo("find triplet (indexed version)")
     val (d, e, f) = Loops(ints).find()
     println("Day 02 part 2 solution: ${d * e * f}")
+
+    println(sw.stop().getMessage())
 }
 
 fun find2020Pair(numbers: Set<Int>): Pair<Int, Int> {
