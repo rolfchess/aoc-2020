@@ -28,7 +28,7 @@ fun main() {
 }
 
 fun isCorrectPassword(line:String):Boolean {
-    val split = lineRegex.find(line)
+    val split = lineRegex.matchEntire(line)
     val min = split!!.groupValues.get(1).toInt()
     val max = split!!.groupValues.get(2).toInt()
     val char = split!!.groupValues.get(3)[0]
@@ -44,7 +44,7 @@ fun isCorrectPassword(line:String):Boolean {
 }
 
 fun isCorrectPassword2(line:String):Boolean {
-    val split = lineRegex.find(line)
+    val split = lineRegex.matchEntire(line)
     val first = split!!.groupValues.get(1).toInt()
     val second = split!!.groupValues.get(2).toInt()
     val char = split!!.groupValues.get(3).toCharArray()[0]
