@@ -1,5 +1,7 @@
 package com.javamonitor.tools
 
+import kotlin.math.round
+
 /**
  * A simple stopwatch timer to trace slow method calls.
  * This is a faster and leaner alternative to [org.springframework.util.StopWatch],
@@ -10,7 +12,9 @@ package com.javamonitor.tools
 class Stopwatch(name: String, aboutTo: String = "", val logLevel: LogLevel = LogLevel.DEBUG) {
     private val start: Long
     private var lastTime: Long
-    private val message = StringBuilder()
+
+    private val texts = mutableListOf<String>()
+    private val times = mutableListOf<Long>()
 
     /**
      * Start a new stopwatch, with a custom name.
@@ -18,13 +22,13 @@ class Stopwatch(name: String, aboutTo: String = "", val logLevel: LogLevel = Log
      * @param name The name of this com.javamonitor.tools.Stopwatch
      */
     init {
-        start = System.currentTimeMillis()
+        start = System.nanoTime()
         lastTime = start
 
         if (aboutTo.isEmpty()) {
-            message.append("entering ").append(name).append(" took ")
+            texts.add("entering ${name} took ")
         } else {
-            message.append(name).append(":").append(aboutTo).append(" took ")
+            texts.add("${name}: ${aboutTo} took ")
         }
     }
 
@@ -45,11 +49,11 @@ class Stopwatch(name: String, aboutTo: String = "", val logLevel: LogLevel = Log
      * @param operation The operation we are about to perform.
      */
     fun aboutTo(operation: String) {
-        val now = System.currentTimeMillis()
+        val now = System.nanoTime()
         val timeDiff = now - lastTime
         lastTime = now
-        message.append(timeDiff).append("; ").append(operation)
-            .append(" took ")
+        times.add(timeDiff)
+        texts.add("${operation} took ")
     }
 
     /**
@@ -60,13 +64,9 @@ class Stopwatch(name: String, aboutTo: String = "", val logLevel: LogLevel = Log
      * @param thresholdMillis The threshold above which we print the events.
      */
     fun stop(thresholdMillis: Long) {
-
-        val now = System.currentTimeMillis()
-        val timeDiff = now - lastTime
-        lastTime = now
-        val total = now - start
+        stop()
+        val total = (lastTime - start).toDouble()/1_000_000
         if (total > thresholdMillis) {
-            message.append(timeDiff).append(". Total: ").append(total).append("mS.")
             when (logLevel) {
 //                LogLevel.TRACE -> logger.trace(message.toString())
 //                LogLevel.INFO -> logger.info(message.toString())
@@ -79,15 +79,25 @@ class Stopwatch(name: String, aboutTo: String = "", val logLevel: LogLevel = Log
     }
 
     fun stop() : Stopwatch {
-        val now = System.currentTimeMillis()
+        val now = System.nanoTime()
         val timeDiff = now - lastTime
         lastTime = now
+        times.add(timeDiff)
+
         val total = lastTime - start
-        message.append(timeDiff).append(". Total: ").append(total).append("ms.")
+        texts.add(" Total: ")
+        times.add(total)
+
         return this
     }
 
     fun getMessage():String {
-        return message.toString()
+        val message = StringBuilder()
+        (texts zip times).forEach {
+            message.append(it.first)
+            message.append("%.2fms".format(it.second.toDouble()/1_000_000))
+            message.append("; ")
+        }
+        return message.toString().substring(0, message.length-2) + "."
     }
 }
