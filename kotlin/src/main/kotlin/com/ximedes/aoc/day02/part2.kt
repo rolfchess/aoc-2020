@@ -48,7 +48,6 @@ fun isCorrectPassword2(line:String):Boolean {
     val first = split!!.groupValues.get(1).toInt()
     val second = split!!.groupValues.get(2).toInt()
     val char = split!!.groupValues.get(3).toCharArray()[0]
-
     val password = split!!.groupValues.get(4)
 
     return (password[first-1] == char) != (password[second-1] == char)
