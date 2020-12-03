@@ -2,7 +2,7 @@ package com.ximedes.aoc.day02
 
 import junit.framework.TestCase
 
-class Part2KtTest : TestCase() {
+class Part1KtTest : TestCase() {
     fun testtestSinglePassword() {
         assertTrue(isCorrectPassword("1-3 a: abcde"))
         assertFalse(isCorrectPassword("1-3 b: cdefg"))

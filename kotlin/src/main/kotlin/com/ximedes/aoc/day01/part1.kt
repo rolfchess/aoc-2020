@@ -1,12 +1,12 @@
 package com.ximedes.aoc.day01
 
 import com.javamonitor.tools.Stopwatch
-import com.ximedes.aoc.util.getResourceAsText
+import com.ximedes.aoc.util.getClasspathFile
 
 fun main() {
     val sw = Stopwatch("Day 1", "load input")
     val ints = mutableSetOf<Int>()
-    getResourceAsText("/input-1.txt").forEachLine {
+    getClasspathFile("/input-1.txt").forEachLine {
         ints.add(it.toInt())
     }
 
