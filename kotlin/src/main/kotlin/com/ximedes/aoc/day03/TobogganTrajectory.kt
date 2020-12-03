@@ -23,12 +23,16 @@ fun main() {
     println(sw.stop().getMessage())
 }
 
-fun countTrees(map: List<String>, slope: Int, step: Int = 1): Long {
+fun countTrees(map: List<String>, stepRight: Int, stepDown: Int = 1): Long {
     var count = 0L
-    map.forEachIndexed { i, s ->
-        if ((i % step == 0) && hasTree(s, ((i / step) * slope) + 1)) count++
+    var x = 0
+    map.forEachIndexed { y, line ->
+        if (y % stepDown == 0) {
+            if (hasTree(line, x)) count++
+            x += stepRight
+        }
     }
     return count
 }
 
-fun hasTree(line: String, index: Int) = (line[(index - 1) % line.length] == '#')
+fun hasTree(line: String, index: Int) = (line[(index) % line.length] == '#')
