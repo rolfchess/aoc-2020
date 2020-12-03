@@ -2,7 +2,7 @@ package com.ximedes.aoc.day01
 
 import junit.framework.TestCase
 
-class Part1KtTest : TestCase() {
+class ReportRepairKtTest : TestCase() {
 
     fun testPairPart1() {
         val ints = setOf(

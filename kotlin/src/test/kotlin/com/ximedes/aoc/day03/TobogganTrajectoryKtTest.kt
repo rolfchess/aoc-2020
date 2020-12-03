@@ -2,7 +2,7 @@ package com.ximedes.aoc.day03
 
 import junit.framework.TestCase
 
-class Part1KtTest : TestCase() {
+class TobogganTrajectoryKtTest : TestCase() {
     val map = """..##.......
                     |#...#...#..
                     |.#....#..#.
