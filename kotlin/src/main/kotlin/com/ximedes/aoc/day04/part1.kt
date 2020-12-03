@@ -16,14 +16,3 @@ fun main() {
 
     println(sw.stop().getMessage())
 }
-
-
-fun countTrees(map: List<String>, slope: Int, step: Int = 1): Int {
-    var count = 0
-    map.forEachIndexed { i, s ->
-        if ((i % step == 0) && hasTree(s, ((i / step) * slope) + 1)) count++
-    }
-    return count
-}
-
-fun hasTree(line: String, index: Int) = (line[(index - 1) % line.length] == '#')
