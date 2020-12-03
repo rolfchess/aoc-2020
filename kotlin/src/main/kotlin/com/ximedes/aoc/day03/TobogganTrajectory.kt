@@ -20,13 +20,11 @@ fun main() {
                     countTrees(mapLines, 7, 1) *
                     countTrees(mapLines, 1, 2)
     println("Day 03 part 2 solution: ${count2}")
-
     println(sw.stop().getMessage())
 }
 
-
-fun countTrees(map: List<String>, slope: Int, step: Int = 1): Int {
-    var count = 0
+fun countTrees(map: List<String>, slope: Int, step: Int = 1): Long {
+    var count = 0L
     map.forEachIndexed { i, s ->
         if ((i % step == 0) && hasTree(s, ((i / step) * slope) + 1)) count++
     }
