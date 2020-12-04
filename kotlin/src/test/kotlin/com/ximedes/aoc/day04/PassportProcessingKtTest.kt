@@ -24,7 +24,7 @@ class PassportProcessingKtTest : TestCase() {
         val passports = input.getPassports()
         assertEquals(4, passports.size)
 
-        val validPassports = passports.withAllFields()
+        val validPassports = passports.filter { it.containsRequiredFields() }
         assertEquals(2, validPassports.size)
 
 
@@ -74,7 +74,7 @@ hgt:59cm ecl:zzz
 eyr:2038 hcl:74454a iyr:2023
 pid:3556412378 byr:2007"""
 
-        val validPassports = invalidPassports.getPassports().withAllFields().filter { it.validPassport() }
+        val validPassports = invalidPassports.getPassports().filter { it.containsRequiredFields() }.filter { it.validPassport() }
         assertEquals(0, validPassports.size)
     }
 
@@ -92,7 +92,7 @@ eyr:2022
 
 iyr:2010 hgt:158cm hcl:#b6652a ecl:blu byr:1944 eyr:2021 pid:093154719"""
 
-        val validPassports = invalidPassports.getPassports().withAllFields().filter { it.validPassport() }
+        val validPassports = invalidPassports.getPassports().filter { it.containsRequiredFields() }.filter { it.validPassport() }
         assertEquals(4, validPassports.size)
     }
 }
