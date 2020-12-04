@@ -16,7 +16,7 @@ fun main() {
     assertTrue(passports.count() == 192)
 
     sw.aboutTo("solve part 2")
-    val validPassports = passports.filter { it.validPassport() }
+    val validPassports = passports.filter { it.isValidPassport() }
     println("Day 04 part 2 solution: ${validPassports.size}")
     assertTrue(validPassports.count() == 101)
 
@@ -29,7 +29,7 @@ data class Passport(val fields: Map<String, String>) {
     fun containsRequiredFields() =
             fields.keys.containsAll(listOf("byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid"))
 
-    fun validPassport() =
+    fun isValidPassport() =
             // Fastest assert first
             fields["byr"]!!.toInt() in 1920..2002
                     && fields["iyr"]!!.toInt() in 2010..2020
