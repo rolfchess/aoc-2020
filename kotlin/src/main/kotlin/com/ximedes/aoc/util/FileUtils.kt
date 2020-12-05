@@ -8,7 +8,7 @@ import java.nio.charset.Charset
 
 fun getClasspathFile(path: String) = File(object {}.javaClass.getResource(path).file)
 
-public fun File.forEachLineIndexed(charset: Charset = Charsets.UTF_8, action: (line: String) -> Unit): Unit {
+fun File.forEachLineIndexed(charset: Charset = Charsets.UTF_8, action: (line: String) -> Unit): Unit {
     // Note: close is called at forEachLine
     BufferedReader(InputStreamReader(FileInputStream(this), charset)).forEachLine(action)
 }
