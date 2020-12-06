@@ -28,3 +28,5 @@ fun String.binaryStringToDecimal(high: Char = '1'): Int {
     }
     return result
 }
+
+fun String.remove(text:String) = replace(text, "")

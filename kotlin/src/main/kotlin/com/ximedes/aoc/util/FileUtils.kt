@@ -12,3 +12,8 @@ fun File.forEachLineIndexed(charset: Charset = Charsets.UTF_8, action: (line: St
     // Note: close is called at forEachLine
     BufferedReader(InputStreamReader(FileInputStream(this), charset)).forEachLine(action)
 }
+
+fun File.records(seperator: String = "\n"): Sequence<String> = readText().split(seperator).asSequence()
+
+
+
