@@ -1,0 +1,1015 @@
+{
+  "owner_id": "185916",
+  "members": {
+    "625811": {
+      "stars": 12,
+      "id": "625811",
+      "name": "Luis Goncalves",
+      "local_score": 179,
+      "global_score": 0,
+      "last_star_ts": "1607261192",
+      "completion_day_level": {
+        "4": {
+          "2": {
+            "get_star_ts": "1607132639"
+          },
+          "1": {
+            "get_star_ts": "1607129499"
+          }
+        },
+        "5": {
+          "2": {
+            "get_star_ts": "1607168946"
+          },
+          "1": {
+            "get_star_ts": "1607165759"
+          }
+        },
+        "2": {
+          "2": {
+            "get_star_ts": "1607039267"
+          },
+          "1": {
+            "get_star_ts": "1607037280"
+          }
+        },
+        "6": {
+          "2": {
+            "get_star_ts": "1607261192"
+          },
+          "1": {
+            "get_star_ts": "1607257741"
+          }
+        },
+        "1": {
+          "1": {
+            "get_star_ts": "1607031579"
+          },
+          "2": {
+            "get_star_ts": "1607031937"
+          }
+        },
+        "3": {
+          "2": {
+            "get_star_ts": "1607125105"
+          },
+          "1": {
+            "get_star_ts": "1607120858"
+          }
+        }
+      }
+    },
+    "186510": {
+      "stars": 0,
+      "id": "186510",
+      "name": "Maurits Out",
+      "local_score": 0,
+      "last_star_ts": 0,
+      "global_score": 0,
+      "completion_day_level": {}
+    },
+    "186559": {
+      "name": "Maurits Out",
+      "local_score": 196,
+      "stars": 12,
+      "id": "186559",
+      "last_star_ts": "1607252926",
+      "global_score": 0,
+      "completion_day_level": {
+        "6": {
+          "1": {
+            "get_star_ts": "1607251359"
+          },
+          "2": {
+            "get_star_ts": "1607252926"
+          }
+        },
+        "1": {
+          "1": {
+            "get_star_ts": "1606851851"
+          },
+          "2": {
+            "get_star_ts": "1606852073"
+          }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": "1607026588"
+          },
+          "2": {
+            "get_star_ts": "1607027191"
+          }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": "1607109607"
+          },
+          "2": {
+            "get_star_ts": "1607113631"
+          }
+        },
+        "2": {
+          "2": {
+            "get_star_ts": "1607024051"
+          },
+          "1": {
+            "get_star_ts": "1607023675"
+          }
+        },
+        "5": {
+          "2": {
+            "get_star_ts": "1607166264"
+          },
+          "1": {
+            "get_star_ts": "1607165138"
+          }
+        }
+      }
+    },
+    "322518": {
+      "id": "322518",
+      "stars": 13,
+      "local_score": 298,
+      "name": "Gijs ter Horst",
+      "completion_day_level": {
+        "4": {
+          "2": {
+            "get_star_ts": "1607075258"
+          },
+          "1": {
+            "get_star_ts": "1607063576"
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": "1606889736"
+          },
+          "2": {
+            "get_star_ts": "1606891697"
+          }
+        },
+        "5": {
+          "2": {
+            "get_star_ts": "1607161263"
+          },
+          "1": {
+            "get_star_ts": "1607159397"
+          }
+        },
+        "7": {
+          "1": {
+            "get_star_ts": "1607354009"
+          }
+        },
+        "3": {
+          "2": {
+            "get_star_ts": "1606976526"
+          },
+          "1": {
+            "get_star_ts": "1606975770"
+          }
+        },
+        "1": {
+          "2": {
+            "get_star_ts": "1606802513"
+          },
+          "1": {
+            "get_star_ts": "1606802150"
+          }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": "1607236794"
+          },
+          "2": {
+            "get_star_ts": "1607238127"
+          }
+        }
+      },
+      "global_score": 0,
+      "last_star_ts": "1607354009"
+    },
+    "529980": {
+      "stars": 0,
+      "id": "529980",
+      "name": "Hieke Witsel",
+      "local_score": 0,
+      "last_star_ts": 0,
+      "global_score": 0,
+      "completion_day_level": {}
+    },
+    "186544": {
+      "last_star_ts": 0,
+      "global_score": 0,
+      "completion_day_level": {},
+      "stars": 0,
+      "id": "186544",
+      "name": "Goran Gloncak",
+      "local_score": 0
+    },
+    "373629": {
+      "completion_day_level": {},
+      "global_score": 0,
+      "last_star_ts": 0,
+      "local_score": 0,
+      "name": "Joost Flipse",
+      "id": "373629",
+      "stars": 0
+    },
+    "186598": {
+      "global_score": 0,
+      "last_star_ts": 0,
+      "completion_day_level": {},
+      "stars": 0,
+      "id": "186598",
+      "name": "Erik Visser",
+      "local_score": 0
+    },
+    "700396": {
+      "global_score": 0,
+      "last_star_ts": 0,
+      "completion_day_level": {},
+      "name": "Bob Koeman",
+      "local_score": 0,
+      "stars": 0,
+      "id": "700396"
+    },
+    "190012": {
+      "local_score": 106,
+      "name": "Hugo Witsel",
+      "id": "190012",
+      "stars": 7,
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": "1606807234"
+          },
+          "2": {
+            "get_star_ts": "1606812006"
+          }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": "1607009299"
+          },
+          "2": {
+            "get_star_ts": "1607070907"
+          }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": "1607084941"
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": "1606895993"
+          },
+          "2": {
+            "get_star_ts": "1606896317"
+          }
+        }
+      },
+      "last_star_ts": "1607084941",
+      "global_score": 0
+    },
+    "185916": {
+      "completion_day_level": {
+        "5": {
+          "2": {
+            "get_star_ts": "1607153906"
+          },
+          "1": {
+            "get_star_ts": "1607149751"
+          }
+        },
+        "2": {
+          "2": {
+            "get_star_ts": "1606892442"
+          },
+          "1": {
+            "get_star_ts": "1606891989"
+          }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": "1607067362"
+          },
+          "2": {
+            "get_star_ts": "1607069322"
+          }
+        },
+        "3": {
+          "2": {
+            "get_star_ts": "1606985488"
+          },
+          "1": {
+            "get_star_ts": "1606978558"
+          }
+        },
+        "1": {
+          "1": {
+            "get_star_ts": "1606810009"
+          },
+          "2": {
+            "get_star_ts": "1606810670"
+          }
+        },
+        "6": {
+          "2": {
+            "get_star_ts": "1607244521"
+          },
+          "1": {
+            "get_star_ts": "1607240344"
+          }
+        },
+        "7": {
+          "1": {
+            "get_star_ts": "1607335162"
+          },
+          "2": {
+            "get_star_ts": "1607335473"
+          }
+        }
+      },
+      "last_star_ts": "1607335473",
+      "global_score": 0,
+      "local_score": 312,
+      "name": "jorispz",
+      "id": "185916",
+      "stars": 14
+    },
+    "277522": {
+      "completion_day_level": {
+        "1": {
+          "2": {
+            "get_star_ts": "1607353906"
+          },
+          "1": {
+            "get_star_ts": "1607353468"
+          }
+        }
+      },
+      "global_score": 0,
+      "last_star_ts": "1607353906",
+      "local_score": 0,
+      "name": "Boaz Maurits",
+      "id": "277522",
+      "stars": 2
+    },
+    "529990": {
+      "last_star_ts": 0,
+      "global_score": 0,
+      "completion_day_level": {},
+      "stars": 0,
+      "id": "529990",
+      "name": "Stella Witsel",
+      "local_score": 0
+    },
+    "373638": {
+      "last_star_ts": 0,
+      "global_score": 0,
+      "completion_day_level": {},
+      "stars": 0,
+      "id": "373638",
+      "name": "gijsterhorst",
+      "local_score": 0
+    },
+    "382584": {
+      "completion_day_level": {},
+      "last_star_ts": 0,
+      "global_score": 0,
+      "id": "382584",
+      "stars": 0,
+      "local_score": 0,
+      "name": "Boris Kardelis"
+    },
+    "999458": {
+      "local_score": 255,
+      "name": "agamvrinos",
+      "id": "999458",
+      "stars": 12,
+      "completion_day_level": {
+        "3": {
+          "1": {
+            "get_star_ts": "1606980320"
+          },
+          "2": {
+            "get_star_ts": "1606982052"
+          }
+        },
+        "1": {
+          "2": {
+            "get_star_ts": "1606841536"
+          },
+          "1": {
+            "get_star_ts": "1606806195"
+          }
+        },
+        "6": {
+          "2": {
+            "get_star_ts": "1607244336"
+          },
+          "1": {
+            "get_star_ts": "1607242151"
+          }
+        },
+        "4": {
+          "2": {
+            "get_star_ts": "1607070746"
+          },
+          "1": {
+            "get_star_ts": "1607067155"
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": "1606892892"
+          },
+          "2": {
+            "get_star_ts": "1606893659"
+          }
+        },
+        "5": {
+          "2": {
+            "get_star_ts": "1607155306"
+          },
+          "1": {
+            "get_star_ts": "1607154878"
+          }
+        }
+      },
+      "global_score": 0,
+      "last_star_ts": "1607244336"
+    },
+    "382454": {
+      "completion_day_level": {},
+      "global_score": 0,
+      "last_star_ts": 0,
+      "id": "382454",
+      "stars": 0,
+      "local_score": 0,
+      "name": "krevelen"
+    },
+    "963907": {
+      "completion_day_level": {},
+      "global_score": 0,
+      "last_star_ts": 0,
+      "local_score": 0,
+      "name": "Steven Kisoentewari",
+      "id": "963907",
+      "stars": 0
+    },
+    "192360": {
+      "global_score": 0,
+      "last_star_ts": "1607329270",
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": "1606806107"
+          },
+          "2": {
+            "get_star_ts": "1606808646"
+          }
+        },
+        "6": {
+          "2": {
+            "get_star_ts": "1607254224"
+          },
+          "1": {
+            "get_star_ts": "1607252602"
+          }
+        },
+        "3": {
+          "2": {
+            "get_star_ts": "1606982502"
+          },
+          "1": {
+            "get_star_ts": "1606981623"
+          }
+        },
+        "7": {
+          "1": {
+            "get_star_ts": "1607328501"
+          },
+          "2": {
+            "get_star_ts": "1607329270"
+          }
+        },
+        "5": {
+          "1": {
+            "get_star_ts": "1607163939"
+          },
+          "2": {
+            "get_star_ts": "1607165744"
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": "1606893899"
+          },
+          "2": {
+            "get_star_ts": "1606894179"
+          }
+        },
+        "4": {
+          "2": {
+            "get_star_ts": "1607078436"
+          },
+          "1": {
+            "get_star_ts": "1607070135"
+          }
+        }
+      },
+      "stars": 14,
+      "id": "192360",
+      "name": "rolfchess",
+      "local_score": 284
+    },
+    "382367": {
+      "completion_day_level": {},
+      "last_star_ts": 0,
+      "global_score": 0,
+      "id": "382367",
+      "stars": 0,
+      "local_score": 0,
+      "name": "Rick van Krevelen"
+    },
+    "385093": {
+      "completion_day_level": {},
+      "last_star_ts": 0,
+      "global_score": 0,
+      "local_score": 0,
+      "name": "neoaddix",
+      "id": "385093",
+      "stars": 0
+    },
+    "187132": {
+      "completion_day_level": {
+        "7": {
+          "1": {
+            "get_star_ts": "1607321970"
+          },
+          "2": {
+            "get_star_ts": "1607322671"
+          }
+        },
+        "3": {
+          "2": {
+            "get_star_ts": "1606978090"
+          },
+          "1": {
+            "get_star_ts": "1606977712"
+          }
+        },
+        "1": {
+          "1": {
+            "get_star_ts": "1606802170"
+          },
+          "2": {
+            "get_star_ts": "1606802680"
+          }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": "1607241388"
+          },
+          "2": {
+            "get_star_ts": "1607242691"
+          }
+        },
+        "4": {
+          "2": {
+            "get_star_ts": "1607066397"
+          },
+          "1": {
+            "get_star_ts": "1607064000"
+          }
+        },
+        "5": {
+          "2": {
+            "get_star_ts": "1607161942"
+          },
+          "1": {
+            "get_star_ts": "1607161245"
+          }
+        },
+        "2": {
+          "2": {
+            "get_star_ts": "1606899387"
+          },
+          "1": {
+            "get_star_ts": "1606898788"
+          }
+        }
+      },
+      "global_score": 0,
+      "last_star_ts": "1607322671",
+      "local_score": 309,
+      "name": "Maiklins",
+      "id": "187132",
+      "stars": 14
+    },
+    "186004": {
+      "completion_day_level": {
+        "3": {
+          "2": {
+            "get_star_ts": "1606987772"
+          },
+          "1": {
+            "get_star_ts": "1606982842"
+          }
+        },
+        "6": {
+          "2": {
+            "get_star_ts": "1607242177"
+          },
+          "1": {
+            "get_star_ts": "1607241599"
+          }
+        },
+        "1": {
+          "2": {
+            "get_star_ts": "1606942001"
+          },
+          "1": {
+            "get_star_ts": "1606940586"
+          }
+        },
+        "7": {
+          "1": {
+            "get_star_ts": "1607323784"
+          },
+          "2": {
+            "get_star_ts": "1607326211"
+          }
+        },
+        "2": {
+          "2": {
+            "get_star_ts": "1606947741"
+          },
+          "1": {
+            "get_star_ts": "1606945862"
+          }
+        },
+        "5": {
+          "1": {
+            "get_star_ts": "1607151582"
+          },
+          "2": {
+            "get_star_ts": "1607151910"
+          }
+        },
+        "4": {
+          "2": {
+            "get_star_ts": "1607113665"
+          },
+          "1": {
+            "get_star_ts": "1607070539"
+          }
+        }
+      },
+      "last_star_ts": "1607326211",
+      "global_score": 0,
+      "id": "186004",
+      "stars": 14,
+      "local_score": 284,
+      "name": "Sjoerd van Houten"
+    },
+    "558189": {
+      "completion_day_level": {
+        "3": {
+          "2": {
+            "get_star_ts": "1607164503"
+          },
+          "1": {
+            "get_star_ts": "1607163923"
+          }
+        },
+        "6": {
+          "2": {
+            "get_star_ts": "1607240378"
+          },
+          "1": {
+            "get_star_ts": "1607239276"
+          }
+        },
+        "1": {
+          "1": {
+            "get_star_ts": "1607116716"
+          },
+          "2": {
+            "get_star_ts": "1607117442"
+          }
+        },
+        "5": {
+          "1": {
+            "get_star_ts": "1607184840"
+          },
+          "2": {
+            "get_star_ts": "1607185172"
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": "1607118382"
+          },
+          "2": {
+            "get_star_ts": "1607121035"
+          }
+        },
+        "4": {
+          "2": {
+            "get_star_ts": "1607168069"
+          },
+          "1": {
+            "get_star_ts": "1607166108"
+          }
+        }
+      },
+      "global_score": 0,
+      "last_star_ts": "1607240378",
+      "id": "558189",
+      "stars": 12,
+      "local_score": 188,
+      "name": "Cervixs"
+    },
+    "963077": {
+      "completion_day_level": {
+        "4": {
+          "2": {
+            "get_star_ts": "1607079441"
+          },
+          "1": {
+            "get_star_ts": "1607073847"
+          }
+        },
+        "2": {
+          "2": {
+            "get_star_ts": "1606903987"
+          },
+          "1": {
+            "get_star_ts": "1606903352"
+          }
+        },
+        "1": {
+          "1": {
+            "get_star_ts": "1606838358"
+          },
+          "2": {
+            "get_star_ts": "1606838529"
+          }
+        },
+        "3": {
+          "2": {
+            "get_star_ts": "1606993372"
+          },
+          "1": {
+            "get_star_ts": "1606983928"
+          }
+        }
+      },
+      "last_star_ts": "1607079441",
+      "global_score": 0,
+      "id": "963077",
+      "stars": 8,
+      "local_score": 123,
+      "name": "Sliferghost"
+    },
+    "611965": {
+      "name": "Mathijs den Burger",
+      "local_score": 279,
+      "stars": 14,
+      "id": "611965",
+      "last_star_ts": "1607339726",
+      "global_score": 0,
+      "completion_day_level": {
+        "7": {
+          "1": {
+            "get_star_ts": "1607330688"
+          },
+          "2": {
+            "get_star_ts": "1607339726"
+          }
+        },
+        "1": {
+          "1": {
+            "get_star_ts": "1606809369"
+          },
+          "2": {
+            "get_star_ts": "1606809477"
+          }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": "1607248147"
+          },
+          "2": {
+            "get_star_ts": "1607248414"
+          }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": "1606981122"
+          },
+          "2": {
+            "get_star_ts": "1606981528"
+          }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": "1607068147"
+          },
+          "2": {
+            "get_star_ts": "1607070449"
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": "1606896280"
+          },
+          "2": {
+            "get_star_ts": "1606896613"
+          }
+        },
+        "5": {
+          "1": {
+            "get_star_ts": "1607216763"
+          },
+          "2": {
+            "get_star_ts": "1607217260"
+          }
+        }
+      }
+    },
+    "351107": {
+      "completion_day_level": {
+        "2": {
+          "2": {
+            "get_star_ts": "1606899269"
+          },
+          "1": {
+            "get_star_ts": "1606898955"
+          }
+        },
+        "5": {
+          "2": {
+            "get_star_ts": "1607257938"
+          },
+          "1": {
+            "get_star_ts": "1607257170"
+          }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": "1607112372"
+          }
+        },
+        "1": {
+          "2": {
+            "get_star_ts": "1606853548"
+          },
+          "1": {
+            "get_star_ts": "1606836010"
+          }
+        },
+        "6": {
+          "2": {
+            "get_star_ts": "1607260050"
+          },
+          "1": {
+            "get_star_ts": "1607259534"
+          }
+        },
+        "3": {
+          "2": {
+            "get_star_ts": "1607022443"
+          },
+          "1": {
+            "get_star_ts": "1607022032"
+          }
+        }
+      },
+      "global_score": 0,
+      "last_star_ts": "1607260050",
+      "local_score": 171,
+      "name": "Jesse Stolwijk",
+      "id": "351107",
+      "stars": 11
+    },
+    "959563": {
+      "completion_day_level": {
+        "4": {
+          "2": {
+            "get_star_ts": "1607064580"
+          },
+          "1": {
+            "get_star_ts": "1607061367"
+          }
+        },
+        "5": {
+          "2": {
+            "get_star_ts": "1607168483"
+          },
+          "1": {
+            "get_star_ts": "1607150974"
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": "1606896748"
+          },
+          "2": {
+            "get_star_ts": "1606897520"
+          }
+        },
+        "7": {
+          "2": {
+            "get_star_ts": "1607328382"
+          },
+          "1": {
+            "get_star_ts": "1607325442"
+          }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": "1606976070"
+          },
+          "2": {
+            "get_star_ts": "1606976774"
+          }
+        },
+        "1": {
+          "1": {
+            "get_star_ts": "1606857893"
+          },
+          "2": {
+            "get_star_ts": "1606858153"
+          }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": "1607234505"
+          },
+          "2": {
+            "get_star_ts": "1607235372"
+          }
+        }
+      },
+      "global_score": 0,
+      "last_star_ts": "1607328382",
+      "local_score": 322,
+      "name": "Ja Du",
+      "id": "959563",
+      "stars": 14
+    },
+    "382879": {
+      "completion_day_level": {
+        "5": {
+          "1": {
+            "get_star_ts": "1607353688"
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": "1606902078"
+          },
+          "2": {
+            "get_star_ts": "1606903347"
+          }
+        },
+        "4": {
+          "2": {
+            "get_star_ts": "1607347735"
+          },
+          "1": {
+            "get_star_ts": "1607330732"
+          }
+        },
+        "1": {
+          "2": {
+            "get_star_ts": "1606826720"
+          },
+          "1": {
+            "get_star_ts": "1606823394"
+          }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": "1606989001"
+          },
+          "2": {
+            "get_star_ts": "1606993484"
+          }
+        }
+      },
+      "last_star_ts": "1607353688",
+      "global_score": 0,
+      "id": "382879",
+      "stars": 9,
+      "local_score": 129,
+      "name": "Marco Buursema"
+    }
+  },
+  "event": "2020"
+}
