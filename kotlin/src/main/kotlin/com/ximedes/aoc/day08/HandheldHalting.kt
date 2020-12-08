@@ -4,6 +4,7 @@ import com.javamonitor.tools.Stopwatch
 import com.ximedes.aoc.util.assertTrue
 import com.ximedes.aoc.util.flipPlace
 import com.ximedes.aoc.util.getClasspathFile
+import com.ximedes.aoc.util.startsWithAny
 
 // :warning: *Day 4:  Toboggan Trajectory* solution thread - here be spoilers! :warning:
 
@@ -29,24 +30,22 @@ fun main() {
 
 private fun patchProgram(handheld: HandHeld, program: List<String>): List<String> {
     val nopsjmps = handheld.executed.filter {
-        program[it].startsWith("nop") || program[it].startsWith("jmp")
+        program[it].startsWithAny("nop", "jmp")
     }.reversed()
 
-    var pathedProgram = program
     for (it in nopsjmps) {
-        pathedProgram = patchInstruction(program, it)
+        val pathedProgram = patchInstruction(program, it)
         val patchedHandHeld = HandHeld(pathedProgram).run()
         if (!patchedHandHeld.crashed) {
-            break;
+            return pathedProgram
         }
     }
-    return pathedProgram
+    error("Was not able to patch the program")
 }
 
 private fun patchInstruction(program: List<String>, it: Int): List<String> {
     val patched = program.toMutableList()
-    val toPatch = program[it]
-    patched[it] = toPatch.flipPlace("nop", "jmp")
+    patched[it] = program[it].flipPlace("nop", "jmp")
     return patched
 }
 
@@ -57,15 +56,12 @@ class HandHeld(val instructions: List<String>) {
     var crashed = false;
 
     fun run(): HandHeld {
-        while (!crashed) {
-            // Normal exit
-            if (instructionpointer >= instructions.size) return this
-
+        while (!crashed && (instructionpointer < instructions.size)) {
             if (executed.contains(instructionpointer)) {
                 crashed = true
-            } else {
-                execute(instructions[instructionpointer])
+                return this
             }
+            execute(instructions[instructionpointer])
         }
         return this
     }

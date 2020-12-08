@@ -17,6 +17,14 @@ fun String.containsOne(strings: List<String>) =
 fun String.containsAny(strings: List<String>) =
         strings.map { if (contains(it)) 1 else 0 }.sum() >= 1
 
+fun String.startsWithAny(vararg strings: String): Boolean {
+    strings.forEach {
+        if (startsWith(it)) return true
+    }.let {
+        return false
+    }
+}
+
 fun Int.between(a: Int, b: Int) = (a..b).contains(this)
 
 fun pow(a: Int, b: Int) = Math.pow(a.toDouble(), b.toDouble()).toInt()
