@@ -30,3 +30,9 @@ fun String.binaryStringToDecimal(high: Char = '1'): Int {
 }
 
 fun String.remove(text:String) = replace(text, "")
+
+// Replaces second with first and first with second (flipping)
+fun String.flipPlace(first:String, second:String) =
+        replace(first, "*flipplace*")
+                .replace(second, first)
+                .replace("*flipplace*", second)

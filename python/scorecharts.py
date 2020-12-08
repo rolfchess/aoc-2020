@@ -71,7 +71,8 @@ if __name__ == "__main__":
     standings.sort(key=points, reverse=True)
 
     for standing in standings:
-        plt.plot(plot['x'], plot[standing['id']], label=getname(standing['id'])+'('+str(plot[standing['id']][-1])+')')
+        scorestring = str(round(plot[standing['id']][-1]))
+        plt.plot(plot['x'], plot[standing['id']], label=getname(standing['id'])+'('+scorestring+')')
 
     plt.legend(loc="upper right")
 
